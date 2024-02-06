@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    color: #228B22;
+    font-size: 50px;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+label{
+    color: #228B22;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+input[type="text"],
+input[type="email"],
+#message {
+    border: 1px solid black;
+    padding: 5px;
+    width: 400px;
+    margin-bottom: 10px; 
+}
+  
+
+.square{
+    border: 6px solid lightblue; 
+    margin: 30px; 
+    width: 70%;
+    height: 70%;
+}
+input[type="submit"] {
+    background-color: #228B22; 
+    color: white; 
+    border:white; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    cursor: pointer; 
+  }
+  input[type="submit"]:hover {
+    background-color: black; 
+  }
+
+  
